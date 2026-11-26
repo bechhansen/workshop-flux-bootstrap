@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: my-deployment
   namespace: default
-spec:
+spec_:
   replicas: 4
   selector:
     matchLabels:
